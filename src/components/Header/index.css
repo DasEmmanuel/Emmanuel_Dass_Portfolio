@@ -1,0 +1,23 @@
+.header_Ctn {
+  display: flex;
+  height: 10vh;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #102c57;
+}
+.logo_Text {
+  font-size: 30px;
+  color: #ffffff;
+}
+.nav_items_Ctn {
+  list-style-type: none;
+  display: flex;
+  width: 50%;
+  color: #ffffff;
+  justify-content: space-between;
+  align-items: center;
+}
+.linkEl{
+  text-decoration: none;
+  color: #ffffff;
+}
