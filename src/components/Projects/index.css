@@ -1,0 +1,22 @@
+.tablist {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+.projectMain_Ctn {
+  display: flex;
+  background-color: #f6f5f5;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.projectListCtn {
+  list-style-type: none;
+  background-color: #eeeeee;
+  width: 78vw;
+  display: flex;
+  flex-wrap: wrap;
+  height: 70vh;
+  overflow: auto;
+}

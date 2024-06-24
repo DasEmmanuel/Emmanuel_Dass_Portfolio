@@ -1,0 +1,15 @@
+.tabButton {
+  color: #b4b4b8;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #b4b4b8;
+  width: 150px;
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.isActiveBtn {
+  color: #1679ab;
+  border-bottom: 2px solid #1679ab;
+}

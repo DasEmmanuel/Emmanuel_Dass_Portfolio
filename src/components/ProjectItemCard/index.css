@@ -1,0 +1,13 @@
+.projectCard {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  margin: 5px;
+  height: 350px;
+}
+.projectImg {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}

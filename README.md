@@ -275,3 +275,19 @@ Use these files to complete the implementation:
 > - Don't change the component folder names as those are the files being imported into the tests.
 > - **Do not remove the pre-filled code**
 > - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+
+Issuses faced 
+
+> - while building the projects page 
+a projects list called initialProjectsList was maintained globaly
+where each project object has category as "STATIC" OR "RESPONSIVE" OR "DYNAMIC" OR "REACT"
+
+5 button tabs is also maintained whith the same id's as above
+
+where a particilar button tab is clicked the "projectsList" in the state should be re-rendered and the new filteredProjects list should be stored in a variable by using initialProjectsList.filter(each => each.category === activeTabid)
+here I have used projectsList present in the state rather than using initialProjectsList which is declared globally
+
+when the STATIC tab is clicked the new filteredProjects lIst is generated with project objects having category as "STATIC"
+but when the another tab is clicked then the project objects do not have their respective categoryID so an Empty list is displayed
+
+to fix this issue instead of using projectsList in state we should use initialProjectsList.

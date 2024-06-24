@@ -1,0 +1,25 @@
+.about_BgCtn {
+  height: 90vh;
+  background-color: #f6f5f5;
+  overflow: auto;
+}
+.top_Ctn {
+  height: 20%;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.introText {
+  width: 60%;
+}
+.educationCtn {
+  border: 2px solid blue;
+  height: 80%;
+}
+.chrono-container {
+  width: 50%;
+  height: 90%;
+}
+
